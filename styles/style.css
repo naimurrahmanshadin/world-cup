@@ -1,0 +1,57 @@
+/*-----------------
+    common styles
+-------------------*/
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+:root{
+    --background: #161616;
+    --button: #ffbd03;
+    --text-1: #ffffff;
+}
+
+/* Banner Part  */
+.container{
+    background-color: var(--background);
+    margin: 5% 10%;
+    padding: 0 5%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.banner-heading{
+    color: var(--text-1);
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+.banner-description{
+    color: var(--text-1);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.banner{
+    width: 50%;
+}
+.banner img{
+    width: 100%;
+    padding-top: 33px;
+    animation: reverse;
+}
+.button{
+    background-color: var(--button);
+    width: 187px;
+    height: 58px;
+    color: var(--text-1);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+.footer{
+    background-color: var(--background);
+    margin: 0;
+}
